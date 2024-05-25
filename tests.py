@@ -2,6 +2,8 @@ import os
 import app
 import json
 
+#Test create PR
+
 def test_model_file_created():
     app.main()  # Assuming the main function encapsulates the training logic
     assert os.path.exists('models/model.pkl')
